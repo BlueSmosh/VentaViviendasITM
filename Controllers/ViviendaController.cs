@@ -14,6 +14,7 @@ namespace VentaViviendasITM.Controllers
     {
         [HttpGet]
         [Route("Listar")]
+
         public List<Vivienda> Listar()
         {
             clsViviendas objViviendas = new clsViviendas();
